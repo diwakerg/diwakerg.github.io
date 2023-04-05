@@ -18,6 +18,10 @@ statsmodels = "^0.13.5"
 ghp-import = "^2.1.0"
 
 
+#[tool.poetry.scripts]
+#ghp_push = "ghp_import -n -p -f notebooks/_build/html"
+
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
