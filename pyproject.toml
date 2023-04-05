@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "notebooks"
+name = "diwakerg.github.io"
 version = "0.1.0"
 description = ""
 authors = ["Diwaker Ghimire <dwkrghm@pm.me>"]
@@ -18,8 +18,8 @@ statsmodels = "^0.13.5"
 ghp-import = "^2.1.0"
 
 
-#[tool.poetry.scripts]
-#ghp_push = "ghp_import -n -p -f notebooks/_build/html"
+# [tool.poetry.scripts]
+# ghp_push = "ghp_import -n -p -f notebooks/_build/html"
 
 
 [build-system]
